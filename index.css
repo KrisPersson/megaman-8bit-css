@@ -1,0 +1,48 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mm-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+    width: 21rem;
+    height: fit-content;
+}
+
+.mm-container article {
+    width: 1rem;
+    height: 1rem;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.black {
+    background: #000;
+}
+
+.white {
+    background: #fff;
+}
+
+.blue {
+    background: rgb(1,142,255);
+}
+
+.turq {
+    background: rgb(11,254,255)
+}
+
+.skin {
+    background: rgb(255,227,201);
+}
+
